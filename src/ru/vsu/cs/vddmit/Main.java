@@ -19,8 +19,8 @@ public class Main {
         astro.setEmployees(new ResearchAssociate[]{employee3, employee4});
 
         Project project1 = new Project("Railgun",
-                new SimpleDateFormat( "dd.MM.yyyy" ).parse( "12.12.2023" ),
-                new SimpleDateFormat( "dd.MM.yyyy" ).parse( "08.03.2024" ), new Participation(5));
+                new SimpleDateFormat("dd.MM.yyyy").parse("12.12.2023"),
+                new SimpleDateFormat("dd.MM.yyyy").parse("08.03.2024"), new Participation(5));
         employee1.setProjects(new Project[]{project1});
 
         Course course1 = new Course("Cosmic rays", 25, 60);
